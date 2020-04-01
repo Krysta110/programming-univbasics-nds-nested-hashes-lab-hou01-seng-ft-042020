@@ -17,11 +17,13 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  new_array[0]={ name:  "Don Gately", occupation: "Live-in Staff" }
-  new_array[1]={ name:  "Joelle van Dyne", occupation: "Radio Personality" }
-  new_array[2]={ name:  "Pat Monteseian", occupation: "Staff" }
-  new_array[3]= { name:  "Kate Gompert", occupation: "None" }
-  new_array[4]= { name:  "Bruce Green", occupation: "Fan of Mildred" }
+  new_array=[
+    { name:  "Don Gately", occupation: "Live-in Staff" },
+    { name:  "Joelle van Dyne", occupation: "Radio Personality" },
+    { name:  "Pat Monteseian", occupation: "Staff" },
+    { name:  "Kate Gompert", occupation: "None" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" }
+  ]
   return new_array
 end
 
