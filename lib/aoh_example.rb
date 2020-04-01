@@ -17,11 +17,11 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  new_array[0]=DON_G.sort
-  new_array[1]=JOELLE_VD.sort
-  new_array[2]=PAT_M.sort
-  new_array[3]=KATE_G.sort
-  new_array[4]=BRUCE_G.sort
+  new_array[0]=DON_G
+  new_array[1]=JOELLE_VD
+  new_array[2]=PAT_M
+  new_array[3]=KATE_G
+  new_array[4]=BRUCE_G
   return new_array
 end
 
