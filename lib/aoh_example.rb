@@ -22,7 +22,6 @@ def literal_aoh
   new_array[2]={ name:  "Pat Monteseian", occupation: "Staff" }
   new_array[3]= { name:  "Kate Gompert", occupation: "None" }
   new_array[4]= { name:  "Bruce Green", occupation: "Fan of Mildred" }
-    print new_array
   return new_array
 end
 
